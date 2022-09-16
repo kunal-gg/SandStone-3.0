@@ -1,11 +1,12 @@
 import React from "react";
-
+import Header from "../components/Header";
+import ThemeVideo from "../components/ThemeVideo";
 
 export default function ThemePage(){
     return(
         <>
-            hello theme       
+        <Header />
+        <ThemeVideo />
         </>
-
     )
 }

@@ -7,7 +7,7 @@ export default function Header(){
         <div class="other-header-container">
         <div class="other-header-main">
             <div class="other-header-logo">
-                <img src={require('./images/Sandstone logo.png')}  width='290px'/>
+                {/* <img src={require('./images/Sandstone logo.png')}  width='290px'/> */}
             </div>
             <div class="other-header-list">
                 <ul>
