@@ -28,18 +28,34 @@ export default function CoreTeam(){
                 />
 
                 <Card 
+                image={require('./images/Aman Prakash.png')}
+                name='Aman Prakash'
+                POR='GENERAL SECRETARY-SS'
+                description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+                />
+
+                <Card 
+                image={require('./images/Manav Kapoor.png')}
+                name='Manav Kapoor'
+                POR='GENERAL SECRETARY - ACAC'
+                description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+                />
+
+                <Card 
+                image={require('./images/Jeevesh Jain.png')}
+                name='Jeevesh Jain'
+                POR='VICE PRESIDENT OF BCD'
+                description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+                />
+
+                <Card 
                 image={require('./images/Paridhi Mathur.png')}
                 name='Paridhi Mathur'
                 POR='SECRETARY'
                 description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
                 />
 
-                <Card 
-                image={require('./images/Aman Prakash.png')}
-                name='Aman Prakash'
-                POR='GENERAL SECRETARY-SS'
-                description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
-                />
+                
 
                 <Card 
                 image={require('./images/Aviral Aggarwal.png')}
@@ -55,12 +71,7 @@ export default function CoreTeam(){
 
                 />
 
-                <Card 
-                image={require('./images/Jeevesh Jain.png')}
-                name='Jeevesh Jain'
-                POR='VICE PRESIDENT OF BCD'
-                description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
-                />
+               
 
                 <Card 
                   image={require('./images/Madhumay Bhartiya.png')}
@@ -69,12 +80,7 @@ export default function CoreTeam(){
                   description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum'
                 />
 
-<Card 
-                image={require('./images/Manav Kapoor.png')}
-                name='Manav Kapoor'
-                POR='GENERAL SECRETARY - ACAC'
-                description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
-                />
+
 
                 <Card 
                 image={require('./images/Mayank Sharma.png')}

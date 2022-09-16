@@ -11,7 +11,6 @@ export const speakers = [
 {name: 'Anjani B Kuumar', designation: 'HR Head', company: 'MX Player', image: require('./images/Anjani B Kuumar.png')},,,,
 {name: 'Anuranjita Kumar', designation: 'Founder and CEO', company: 'Wit-ACE', image: require('./images/Anuranjita Kumar.png')},,,,
 {name: 'Apurv Bhatnagar', designation: 'Head of Marketing', company: 'Incedo Inc', image: require('./images/Apurv Bhatnagar.png')},,,,
-{name: 'Apurv Bhatnagar', designation: 'Head of Analyst Relations', company: 'AWS', image: require('./images/Apurv Bhatnagar.png')},,,,
 {name: 'Avik Sarkar', designation: 'CMO, South Africa', company: 'Kellogg Company', image: require('./images/Avik Sarkar.png')},,,,
 // {name: 'Debopriya Sengupta', designation: 'Director HR', company: 'Whirlpool', image: require('./images/Debopriya Sengupta.png')},,,,
 {name: 'Dhananjay Yadav', designation: 'Associate VP', company: 'Homelane', image: require('./images/Dhananjay Yadav.png')},,,,

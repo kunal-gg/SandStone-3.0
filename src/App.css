@@ -223,6 +223,8 @@
 .main-page-nav ul li{
   list-style: none;
   text-decoration: none;
+  font-family: 'Open sans', sans-serif;
+  font-size: 24px;
   
 }
 

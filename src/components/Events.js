@@ -5,7 +5,7 @@ export default function Events(){
         <>
         <div className="slider-container" >
         <h1>
-            Our Previous <span>Events</span>
+            Glimpse of the <span>Past</span>
         </h1>
         <div className="slider-main">
         <div className="slider">
