@@ -105,7 +105,7 @@ export default function CoreTeam(){
 
                 <Card 
                 
-                image={require('./images/Vanshika Bansal.png')}
+                image={require('./images/Aayush Sharma.jpeg')}
                   name='Ayush Sharma'
                   POR='JOINT SECRETARY'
                   description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'

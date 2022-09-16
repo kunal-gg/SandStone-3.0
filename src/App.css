@@ -87,17 +87,16 @@
 }
 
 .theme-container{
-  width: 86vw;
+  width: 100vw;
   height: auto;
-
+  background-color: #9ebfbf;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .theme-heading{
   text-align: center;
   padding: 10px 0px;
-  font-family: 'Open sans', sans-serif;
   font-size: 25px;
   color: #48F;
   margin: 20px 0px;
@@ -107,11 +106,17 @@
 .theme-heading h2{
   font-size: 36px;
   color: #243E63;
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Italiana', serif
+}
+
+.theme-heading h2 span{
+  color: #243E63;
+  background-color: white;
 }
 
 .theme-list ul{
   display: flex;
+  padding: 5%;
   
   
 }
@@ -119,9 +124,16 @@
 .theme-list li{
   list-style: none;
   flex-basis: 25%;
-  padding: 10px;
+  padding: 4%;
   font-family: 'Poppins', sans-serif;
+  transition: 0.4s;
 
+}
+
+.theme-list li:hover{
+  transform: scale(0.8);
+  background-color: white;
+  cursor: pointer;
 }
 
 .theme-list li img{
@@ -130,9 +142,11 @@
 }
 
 .theme-list h4{
-  color: #718096;
+  color: #243E63;
   font-size: 20px;
   margin: 15px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .theme-list p{
@@ -143,7 +157,8 @@
 
 .introduction-container{
   /* background-color: #F2F2F2; */
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  background-image: linear-gradient(rgba(	29, 29, 44, 0.8), rgba(	29, 29, 44, 0.8)),url('https://www.push10.com/wp-content/uploads/geneva-gloval-website-hero-design.jpg');
   margin: 0;
 }
 
@@ -159,19 +174,27 @@
   border: 1px solid;
   align-items: center;
   font-family: 'Roboto', sans-serif;
+  
 
 
 }
 
-.introduction-left-section, .introduction-right-section{
+.introduction-left-section{ 
   flex-basis: 47%;
+  border: 1px solid;
+  border-color: white;
+  padding: 5%;
 
 }
+.introduction-right-section{
+  flex-basis: 47%;
+} 
 
 .introduction-left-section h1, span{
   /* color: #243E63; */
-  color: #172c49;
-
+  /* color: #172c49; */
+  color: #9ebfbf;
+  
   /* color: white; */
   font-size: 36px;
   font-family: 'Open sans', sans-serif;
@@ -189,7 +212,9 @@
   width: 100%;
   /* background-color: #4488ff; */
   /* color: white; */
-  color: #172c49;
+  /* color: #172c49; */
+  color: #9ebfbf;
+
 
   padding: 0px 8px;
 }
@@ -270,9 +295,12 @@
 	font-size: 120px;
 	color: white;
 	font-weight: 600;
+}
 
-
-
+.main-page-content h2{
+	font-size: 24px;
+	color: white;
+	/* font-weight: 600; */
 }
 
 .main-page-content h4{
@@ -284,10 +312,19 @@
 
 .group{
   display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.group-button{
+  display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
+.group-button a{
+  text-decoration: none;
+}
 .foot-fall-group{
   display: flex;
   justify-content: center;
@@ -314,7 +351,8 @@
 
 .btn-grad {
   /* background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%); */
-  background-color: #4284FF;
+  /* background-color: #4284FF; */
+  background-color: white;
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
@@ -325,12 +363,15 @@
   /* box-shadow: 0 0 20px #eee; */
   border-radius: 10px;
   display: block;
+  font-size: 14px;
 }
 
 .btn-grad:hover {
   background-position: right center; /* change the direction of the change here */
-  color: #fff;
+  /* color: #fff; */
+  color: #4284FF;
   text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -355,7 +396,7 @@
   display: flex;
   /* width: 75vw; */
   /* width: auto; */
-  height: 100vh;
+  height: 50vh;
   justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
@@ -403,7 +444,6 @@
   display: flex;
   /* width: 100%; */
   /* width: auto; */
-  
   height: 50vh;
   min-width: 100%;
   /* height: auto; */
@@ -650,10 +690,11 @@ body{
 
   display: flex;
   flex-direction: column;
-  height: 240px;
+  height: 430px;
   /* background-image: url("https://i.ytimg.com/vi/e0HlQh-hwyE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJgTS-_tgUVFFMqgEpmILj2-haQw"); */
   /* background-image: linear-gradient( 129.1deg,  rgba(243,199,83,1) 26.8%, rgba(18,235,207,1) 114.1% ); */
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+  background-image: url("./components/images/header.jpg");
   /* background: rgba(0, 0, 0, 0.6); */
   overflow: hidden;
 
@@ -933,4 +974,85 @@ body{
 
 .amex ul{
   margin: auto;
+}
+
+.wrapper {
+  background-image: linear-gradient(rgba(158, 191, 191, 0.9), rgba(158, 191, 191, 0.9)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDUR1MUK9GWw5Mvqhz8j94OCBi_kEwiaqN2A&usqp=CAU");
+
+  position: relative;
+  width: 100vw;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 50%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  background-color: #9ebfbf;
+  font-family: 'Italana', sans-serif;
+  margin-top: 10%;
+}
+
+.container {
+  width: 28vmin;
+  height: 28vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1em 0;
+  position: relative;
+  font-size: 16px;
+  border-radius: 0.5em;
+
+}
+i {
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+}
+span.num {
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+}
+span.text {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  pad: 0.7em 0;
+  font-weight: 400;
+  line-height: 0;
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 85vw;
+  }
+  .container {
+    height: 26vmin;
+    width: 26vmin;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90vw;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .container {
+    width: calc(50% - 40px);
+    height: 30vmin;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    gap: 15px;
+  }
+  .container {
+    width: 100%;
+    height: 25vmin;
+    font-size: 8px;
+  }
 }
