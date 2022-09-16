@@ -492,6 +492,7 @@ body{
   color: white;
   transition-duration: 0.3s;
   font-size: 24px;
+  font-style: italic;
 }
 
 .main-page-nav .hero-list-link:hover{
