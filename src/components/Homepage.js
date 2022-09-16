@@ -25,7 +25,7 @@ export default function HomePage(){
                 </nav>
 
                 <div className="main-page-content">
-                    <h1>Sand<span>Stone</span></h1>
+                    <h1>Sand<span>Stoone</span></h1>
                     
                 </div>
 
