@@ -488,9 +488,10 @@ body{
 
 .main-page-nav .hero-list-link{
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open sans', sans-serif;
   color: white;
   transition-duration: 0.3s;
+  font-size: 24px;
 }
 
 .main-page-nav .hero-list-link:hover{
