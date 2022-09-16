@@ -30,6 +30,7 @@ function App() {
           <Route path='/team' element={<CoreTeamPage />} />
           <Route path='/events' element={<EventsPage />} />
           <Route path='/hackathon' element={<HackthonPage />} />
+
         </Routes>
         <Footer />
         <Copyright />
