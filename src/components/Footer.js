@@ -38,7 +38,7 @@ export default function Footer(){
                     <div className="footer-column-heading">
                         <h4>Quick Links</h4>
                         <hr></hr>
-                        <li><a href="#"></a>Theme</li>
+                        <li><a href="#">Theme</a></li>
                         <li><a href="#">Sponsors</a></li>
                         <li><a href="#">Core Team</a></li>
                     </div>

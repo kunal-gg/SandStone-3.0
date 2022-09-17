@@ -1,5 +1,11 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import { FaMapPin } from 'react-icons/fa';
+import { FaCalendar } from 'react-icons/fa';
+import { FaPlayCircle } from 'react-icons/fa';
+
+
+
 
 export default function HomePage(){
     return(
@@ -28,6 +34,16 @@ export default function HomePage(){
                 <div className="main-page-content">
                     <h1>SANDSTONE</h1>
                     <h2>India Accelerates: Canvassing Vicennial Sustainability</h2>
+
+
+                    <div className="group">
+                        <h4><FaMapPin color="red" /> IIT Jodhpur</h4>
+                        <h4><FaCalendar color="#4284FF"/> 23rd-25th September</h4>
+                    </div>
+                    <div className="group-button">
+                        <a href="#" target="_blank"><button className="btn-grad"> Enter Platform </button></a>
+                        <a href="https://drive.google.com/drive/folders/1bIoM51tgU38RH70jL99f1MOY7REhusiQ"target="_blank"><button className="btn-grad"> <FaPlayCircle/> Theme Reveal </button></a>
+                    </div>
                     
                     
                 </div>
