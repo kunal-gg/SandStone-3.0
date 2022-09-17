@@ -715,16 +715,13 @@ body{
 
   display: flex;
   flex-direction: column;
-  height: 430px;
   /* background-image: url("https://i.ytimg.com/vi/e0HlQh-hwyE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJgTS-_tgUVFFMqgEpmILj2-haQw"); */
   /* background-image: linear-gradient( 129.1deg,  rgba(243,199,83,1) 26.8%, rgba(18,235,207,1) 114.1% ); */
   /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
   background-image: url("./components/images/header.jpg");
   /* background: rgba(0, 0, 0, 0.6); */
   overflow: hidden;
-  height: auto;
-
-  
+  height: 430px;
 
 }
 .other-header-main{
@@ -738,7 +735,6 @@ body{
   margin-top: 70px;
   z-index: 1;
   font-family: 'Open Sans', sans-serif;
-
   
 }
 
