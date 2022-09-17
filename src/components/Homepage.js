@@ -26,7 +26,8 @@ export default function HomePage(){
                 </nav>
 
                 <div className="main-page-content">
-                    <h1>Sand<span>Stone</span></h1>
+                    <h1>SANDSTONE</h1>
+                    <h2>India Accelerates: Canvassing Vicennial Sustainability</h2>
                     
                     
                 </div>

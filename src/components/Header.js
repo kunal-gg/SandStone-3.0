@@ -7,7 +7,7 @@ export default function Header(){
         <div class="other-header-container">
         <div class="other-header-main">
             <div class="other-header-logo">
-                <img src={require('./images/Sandstone logo.png')}  width='290px'/>
+                {/* <img src={require('./images/Sandstone logo.png')}  width='290px'/> */}
             </div>
             <div class="other-header-list">
                 <ul>
@@ -16,7 +16,7 @@ export default function Header(){
                     <Link to={'/speakers'} className='other-header-list-link'>Speakers</Link>
                     <Link to={'/sponsors'} className='other-header-list-link'>Sponsors</Link>
                     <Link to={'/team'} className='other-header-list-link'>Core Team</Link>
-                    <Link to={'/hackathon'} className='other-header-list-link'>Events</Link>
+                    <Link to={'/hackathon'} className='other-header-list-link'>Competitions</Link>
                     {/* <li>Speakers</li>
                     <li>Sponsors</li>
                     <li>Core Team</li>
@@ -26,7 +26,7 @@ export default function Header(){
 
         </div>
         <div class="header-background-image">
-            <img src={require('./images/Header/background image.png')} />
+            <img src={require('./images/header.jpg')} />
         </div>
     </div>
     )
