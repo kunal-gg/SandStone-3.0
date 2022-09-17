@@ -198,7 +198,10 @@ a {
 
 
 .introduction-main {
-  display: flex;
+  /* display: flex; */
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
   /* width: 75vw; */
   /* width: auto; */
   height: 100vh;
@@ -426,7 +429,8 @@ span {
 
 
 .theme-video-main {
-  display: flex;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* width: 75vw; */
   /* width: auto; */
   height: 50vh;
