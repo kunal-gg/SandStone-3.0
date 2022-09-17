@@ -3,6 +3,8 @@ import { sandstone } from './Sandstone3'
 import SpeakersCards from './SpeakersCards'
 import { speakers } from './SpeakersData'
 
+import { AnimationOnScroll } from 'react-animation-on-scroll'
+
 function Speakers() {
         return (
                 <div className='speakers-container'>
@@ -11,6 +13,7 @@ function Speakers() {
                                 <h2>Our Eminent <br /><span>Speakers</span></h2>
 
                         </div>
+                        
 
                         <div className='speakers-main' id='current-speakers'>
 

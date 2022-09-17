@@ -560,8 +560,13 @@
 
 .speakers-cards-image{
     overflow: hidden;
-    border-radius: 25px;
 
+ 
+
+}
+
+.speakers-cards-main{
+  padding: 10px;
 }
 
 

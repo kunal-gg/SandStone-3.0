@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./CoreTeamCards";
-
-
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export default function CoreTeam(){
     return(
@@ -10,7 +10,8 @@ export default function CoreTeam(){
                 <h2>Our <span>Team</span></h2>
                 <p>The team that has put their heart and soul into this event</p>
             </div>
-
+            <AnimationOnScroll animateIn="animate__slideInLeft ">
+      
             <div className="core-team-grid">
 
             <Card 
@@ -116,6 +117,7 @@ export default function CoreTeam(){
                
 
             </div>
+            </AnimationOnScroll>
 
         </div>
     )
