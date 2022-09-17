@@ -1,12 +1,9 @@
 import React from "react";
+import "animate.css/animate.min.css";
 
-export default function Theme(){
-    return(
-        <div className="theme-container">
-        <div className="theme-heading">
-            <h2>Themes: What is<br /> <span>New in this edition?</span></h2>
-        </div>
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+export default function Theme() {
+    return (
         <div className="theme-list">
             <ul>
                 <li>
@@ -36,6 +33,5 @@ export default function Theme(){
                 </li>
             </ul>
         </div>
-    </div>
     )
 }

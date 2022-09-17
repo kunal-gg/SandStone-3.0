@@ -15,9 +15,6 @@ export default function Amex(){
                     <li><BsGlobe size={25} /></li>
                 </ul>
             </div>
-            
-            
-            
         </>
     )
 }

@@ -16,7 +16,8 @@ export default function Header(){
                     <Link to={'/speakers'} className='other-header-list-link'>Speakers</Link>
                     <Link to={'/sponsors'} className='other-header-list-link'>Sponsors</Link>
                     <Link to={'/team'} className='other-header-list-link'>Core Team</Link>
-                    <Link to={'/hackathon'} className='other-header-list-link'>Competitions</Link>
+                    <Link to={'/hackathon'} className='other-header-list-link'>Events</Link>
+                    <Link to={'/theme'} className='other-header-list-link'>Theme</Link>
                     {/* <li>Speakers</li>
                     <li>Sponsors</li>
                     <li>Core Team</li>
@@ -26,7 +27,10 @@ export default function Header(){
 
         </div>
         <div class="header-background-image">
-            <img src={require('./images/header.jpg')} />
+            {/* <img src={require('./images/Header/background image.png')} /> */}
+            {
+                /* Add gradient as set in css */
+            }
         </div>
     </div>
     )
