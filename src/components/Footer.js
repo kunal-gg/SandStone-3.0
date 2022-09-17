@@ -3,6 +3,7 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 import HomePage from "./Homepage";
 
 
@@ -38,7 +39,7 @@ export default function Footer(){
                     <div className="footer-column-heading">
                         <h4>Quick Links</h4>
                         <hr></hr>
-                        <li><a href="#">Theme</a></li>
+                        <Link to='/speakers'>Theme</Link>
                         <li><a href="#">Sponsors</a></li>
                         <li><a href="#">Core Team</a></li>
                     </div>
