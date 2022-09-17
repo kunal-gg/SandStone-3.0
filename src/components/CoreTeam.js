@@ -12,7 +12,7 @@ export default function CoreTeam(){
             </div>
            
 
-<AnimationOnScroll animateIn="animate__slideInLeft">
+<AnimationOnScroll animateIn="animate__slideInLeft" animateOnce='true'>
 <div className="core-team-grid">
 
 <Card 
