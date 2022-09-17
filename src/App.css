@@ -644,7 +644,8 @@ body {
 
 .core-team-grid-wrapper {
   width: 100vw;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: center;
   align-items: center;
 }
@@ -652,7 +653,7 @@ body {
 
 .core-team-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   column-gap: 80px;
   row-gap: 80px;
   width: 70vw;
