@@ -1,17 +1,17 @@
 import React from "react"
 import { IconBase } from "react-icons"
 import { FaCalendar, FaLocationArrow, FaMapPin, FaPlay, FaPlayCircle, FaVideo } from "react-icons/fa"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 export default function HomePage(){
     return(
         <div>
-            <div className="main-page-hero">
+            <div className="main-page-hero" id="home">
 
                 <video autoPlay loop muted playsInline className="background-video">
                     <source src="https://imgur.com/5OieuMs.mp4" type="video/mp4" />
                 </video>
                 <nav className="main-page-nav">
-                    <img src={require("./images/Sandstone logo.png")}  className="logo"/>
+                    <img src={require("./images/Sandstone logo.png")}  className="logo" />
                     <ul>
                         <Link to='/' className="hero-list-link">Home</Link>
                         <Link to='/speakers' className="hero-list-link">Speakers</Link>
@@ -19,7 +19,6 @@ export default function HomePage(){
                         <Link to='/team' className="hero-list-link">Core Team</Link>
                         <Link to='/hackathon' className="hero-list-link">Events </Link>
                         <Link to='/theme' className="hero-list-link">Theme </Link>
-
 
                         
                         
@@ -32,7 +31,6 @@ export default function HomePage(){
                     {/* <h1>Sand<span className="stone">Stone</span></h1> */}
                     <h1>SANDSTONE</h1>
                     <h2>India Accelerates: Canvassing Vicennial Sustainability</h2>
-
                     <div className="group">
                         <h4><FaMapPin color="red" /> IIT Jodhpur</h4>
                         <h4><FaCalendar color="#4284FF"/> 23rd-25th September</h4>

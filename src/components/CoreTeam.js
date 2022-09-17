@@ -35,7 +35,7 @@ export default function CoreTeam(){
                 />
 
                 <Card 
-                image={require('./images/Manav Kapoor.png')}
+                image={require('./images/Manav Kapoor.jpg')}
                 name='Manav Kapoor'
                 POR='GENERAL SECRETARY - ACAC'
                 description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
