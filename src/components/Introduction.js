@@ -23,7 +23,7 @@ export default function Introduction() {
                 
                     <div className="introduction-right-section">
                         {/* <AnimationOnScroll animateIn="animate__slideInRight "> */}
-                            {/* <img src={require('./images/Homepage/hero.png')} width='90%' /> */}
+                            <img src={require('./images/Homepage/hero.png')} width='90%' />
                         {/* </AnimationOnScroll> */}
                     </div>
                 
