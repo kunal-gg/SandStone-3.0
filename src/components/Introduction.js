@@ -12,7 +12,7 @@ export default function Introduction(){
                     </p>
                 </div>
                 <div className="introduction-right-section">
-                    <img src={require('./images/Homepage/hero.png')} width='90%'/>
+                    {/* <img src={require('./images/Homepage/hero.png')} width='90%'/> */}
                 </div>
             </div>
         </div>
