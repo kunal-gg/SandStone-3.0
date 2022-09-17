@@ -137,10 +137,11 @@ a {
 }
 
 .theme-list ul {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+
   padding: 5%;
-
-
 }
 
 .theme-list li {
@@ -157,6 +158,8 @@ a {
   background-color: white;
   cursor: pointer;
 }
+
+
 
 .theme-list li img {
   height: 140px;
@@ -177,6 +180,13 @@ a {
 }
 
 
+@media (max-width: 960px) and (min-width: 501px) {
+  .theme-list li { width: 50%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+}
+
+@media (max-width: 500px) {
+  .theme-list li { width: 100%; } /* On small screens, show one logo per row */
+}
 
 .introduction-container {
   /* background-color: #F2F2F2; */
