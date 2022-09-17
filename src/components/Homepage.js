@@ -17,7 +17,7 @@ export default function HomePage(){
                         <Link to='/speakers' className="hero-list-link">Speakers</Link>
                         <Link to='/sponsors' className="hero-list-link">Sponsors</Link>
                         <Link to='/team' className="hero-list-link">Core Team</Link>
-                        <Link to='/hackathon' className="hero-list-link">Events </Link>
+                        <Link to='/hackathon' className="hero-list-link">Sandstone Verticals </Link>
                         <Link to='/theme' className="hero-list-link">Theme </Link>
 
                         

@@ -9,11 +9,11 @@ export default function Amex(){
             <div className="amex">
                 <h1>Title Sponsor</h1>
                 <img src={require('./images/american-express.png')} />
-                <ul>
+                {/* <ul>
                     <li><FaLinkedinIn size={25}/></li>
                     <li><FaTwitter size={25} /></li>
                     <li><BsGlobe size={25} /></li>
-                </ul>
+                </ul> */}
             </div>
         </>
     )

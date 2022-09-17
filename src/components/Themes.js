@@ -11,7 +11,7 @@ export default function Theme() {
             <div className="theme-list">
                 <ul>
                     <li>
-                        <AnimationOnScroll animateIn="animate__slideInLeft ">
+                        <AnimationOnScroll animateIn="animate__fadeIn " animateOnce='true'>
                             <img src={require('./images/Themes/Diversity.png')} alt="diversity" width="100%" />
                             <div className="theme-list-content">
                                 <h4>Diversity and Inclusion for Sustainable Careers</h4>
@@ -21,7 +21,7 @@ export default function Theme() {
 
                     </li>
                     <li>
-                        <AnimationOnScroll animateIn="animate__slideInLeft ">
+                        <AnimationOnScroll animateIn="animate__fadeIn " animateOnce='true'>
 
                             <img src={require('./images/Themes/The Changing face of Unconscious Bias intervention.png')} alt="diversity" width="100%" />
                             <h4>The Changing face of Unconscious Bias intervention: Techno Business</h4>
@@ -30,7 +30,7 @@ export default function Theme() {
                     </li>
 
                     <li>
-                        <AnimationOnScroll animateIn="animate__slideInRight ">
+                        <AnimationOnScroll animateIn="animate__fadeIn " animateOnce='ture'>
 
                             <img src={require('./images/Themes/Democratic.png')} alt="diversity" width="100%" />
                             <h4>Democratic clean business through next gen solutions</h4>
@@ -39,7 +39,7 @@ export default function Theme() {
                     </li>
 
                     <li>
-                        <AnimationOnScroll animateIn="animate__slideInRight ">
+                        <AnimationOnScroll animateIn="animate__fadeIn " animateOnce='true'>
 
                             <img src={require('./images/Themes/Business Antidote.png')} alt="diversity" width="100%" />
                             <h4>Business Antidote</h4>
