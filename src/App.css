@@ -617,6 +617,12 @@ body{
 
 }
 
+.core-team-grid-wrapper{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 .core-team-grid{

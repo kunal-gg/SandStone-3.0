@@ -21,12 +21,16 @@ function Speakers() {
 
                                         return (
                                                 <>
-                                                        <SpeakersCards
+                                                <AnimationOnScroll animateIn='animate__fadeIn'
+                                                animateOnce='true'>
+                                                <SpeakersCards
                                                                 image={item.image}
                                                                 name={item.name}
                                                                 designation={item.designation}
                                                                 company={item.company}
                                                         />
+                                                </AnimationOnScroll>
+                                                      
                                                 </>
                                         )
                                 })}
@@ -43,12 +47,15 @@ function Speakers() {
 
                                         return (
                                                 <>
-                                                        <SpeakersCards
+                                                 <AnimationOnScroll animateIn='animate__fadeIn' animateOnce='true'>
+                                                 <SpeakersCards
                                                                 image={item.image}
                                                                 name={item.name}
                                                                 designation={item.designation}
                                                                 company={item.company}
                                                         />
+                                                 </AnimationOnScroll>
+                                                     
                                                 </>
                                         )
                                 })}
