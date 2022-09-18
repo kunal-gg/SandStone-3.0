@@ -427,6 +427,10 @@ span {
   
 }
 
+.group h4{
+  font-size: 24px;
+}
+
 
 .group-button .btn-grad:hover {
   background-position: right center;
@@ -466,6 +470,15 @@ span {
     padding: 10px;
   }
 
+  .group-button .btn-grad:hover{
+    background-color: #4488ff;
+    color: white;
+  }
+
+  .footer-column ul li:hover{
+    padding-left: 0;
+    color: #718096;
+  }
 
 
 
@@ -487,8 +500,7 @@ span {
 
 
 .theme-video-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
   /* width: 75vw; */
   /* width: auto; */
   height: 100vh;
@@ -539,6 +551,7 @@ span {
 
 @media screen and (max-width: 960px){
   .theme-video-main{
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
   }
@@ -654,13 +667,13 @@ span {
 .speakers-heading h2 {
   text-align: center;
   padding: 40px;
-  font-size: 48px;
-  font-family: 'Italiana', serif;
+  font-size: 72px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .speakers-heading h2 span {
   color: #4488ff;
-  font-family: 'Italiana', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .speakers-cards-image {
@@ -1114,14 +1127,14 @@ body {
 
 .previous-speakers-heading h1 {
   color: black;
-  font-size: 48px;
-  font-family: 'Italiana', serif;
+  font-size: 72px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .previous-speakers-heading span {
   color: #4488ff;
-  font-family: 'Italiana', serif;
-  font-size: 48px;
+  font-family: 'Roboto', snas-serif;
+  font-size: 72px;
 }
 
 
@@ -1568,7 +1581,7 @@ span.text {
     
   }
 }
-
+/*
 @media screen and (max-width: 1000px) {
   .fuck-off-sme-container .fuck-off-sme-card {
     margin: 20px 0;
@@ -1592,7 +1605,7 @@ span.text {
   .fuck-off-sme-container .fuck-off-sme-card .face.face1 .fuck-off-sme-content {
     opacity: 1;
   }
-}
+} */
 
 .Nav {
   display: grid;
@@ -1733,6 +1746,16 @@ span.text {
     /* margin-top: 50vh; */
   }
 
+  .footer-column-heading ul li:hover{
+    padding-left: 0px;
+    color: #718096;
+  }
+
+  .footer-column-heading ul a:hover{
+    padding-left: 0;
+    color: #718096;
+  }
+
   .theme-container {
     display: grid;
     grid-template-columns: auto;
@@ -1844,7 +1867,7 @@ span.text {
 
 
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .fuck-off-sme-container {
     display: grid;
     grid-template-columns: auto;
@@ -1853,7 +1876,7 @@ span.text {
     margin: 50px 0px;
 
   }
-}
+} */
 
 
 
@@ -1862,4 +1885,24 @@ span.text {
     grid-template-areas: "logo burger""nav nav";
   }
 
+}
+
+@media screen and (max-width: 700px){
+  .speakers-heading h2, .speakers-heading span{
+    font-size: 40px;
+  }
+
+  .previous-speakers-heading h2, .previous-speakers-heading span{
+    font-size: 40px;
+  }
+
+  
+
+  .core-team-heading h2, .core-team-heading span{
+    font-size: 40px;
+  }
+
+  .core-team-heading p{
+    font-size: 24px;
+  }
 }
