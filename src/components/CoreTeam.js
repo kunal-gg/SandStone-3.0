@@ -28,14 +28,6 @@ export default function CoreTeam() {
             POR='SENIOR MANAGER'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
-
-          <Card
-            image={require('./images/Aman Prakash.png')}
-            name='Aman Prakash'
-            POR='GENERAL SECRETARY-SS'
-            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
-          />
-
           <Card
             image={require('./images/Puneet Garg.jpeg')}
             name='Puneet Garg'
@@ -49,6 +41,14 @@ export default function CoreTeam() {
             POR='CHAIRPERSON'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
+          <Card
+            image={require('./images/Aman Prakash.png')}
+            name='Aman Prakash'
+            POR='GENERAL SECRETARY-SS'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+
+
           <Card
             image={require('./images/Manav Kapoor.jpg')}
             name='Manav Kapoor'
