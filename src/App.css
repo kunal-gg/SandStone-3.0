@@ -1457,8 +1457,11 @@ span.text {
   align-items: center;
   height: 80vh;
 }
-
-
+@media screen and (max-width: 768px) {
+  .fuck-off-sme{
+    margin-bottom: 55vh;
+  }
+}
 .fuck-off-sme2 {
   text-align: center;
   font-family: 'Roboto', serif;
@@ -1648,7 +1651,7 @@ span.text {
     grid-template-columns: auto;
     padding: auto;
     height: auto;
-    margin-top: 60vh;
+    /* margin-top: 60vh; */
   }
 }
 
@@ -1658,7 +1661,7 @@ span.text {
     grid-template-columns: auto;
     padding: auto;
     height: auto;
-    margin-top: 50vh;
+    /* margin-top: 50vh; */
   }
 
   .theme-container {
