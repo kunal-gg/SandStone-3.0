@@ -1424,7 +1424,12 @@ span.text {
   line-height: 0;
 }
 
-
+.fuck-off-sme{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
 
 
 .fuck-off-sme-container {
@@ -1432,6 +1437,7 @@ span.text {
   position: relative;
   display: flex;
   justify-content: space-between;
+  flex-basis: 40%;
 }
 
 
@@ -1475,7 +1481,7 @@ span.text {
 }
 
 .fuck-off-sme-container .fuck-off-sme-card .face.face1 .fuck-off-sme-content h3 {
-  margin: 10px 0 0;
+  margin: 5px 0 0;
   padding: 0;
   color: #fff;
   text-align: center;
