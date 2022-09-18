@@ -83,6 +83,14 @@
 @media (max-width: 700px) {
     .Header {
         grid-template-areas: "logo burger""nav nav";
+        background-image: url("./images/Sandstone logo.png");
+        background-color: grey;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        /* Fix the header image on left and center vertically */
+        background-position: center 50px;
+        height: 240px;
     }
 
     .Nav {
