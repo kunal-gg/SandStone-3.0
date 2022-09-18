@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
 * {
@@ -371,11 +372,17 @@ span {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  border: none;
+
 }
 
 .group-button a {
   text-decoration: none;
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
 }
+
+
 
 .foot-fall-group {
   display: flex;
@@ -402,8 +409,9 @@ span {
   text-align: center;
 }
 
-.btn-grad {
-  background-color: white;
+.group-button .btn-grad  {
+  border: none;
+  color: black;
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
@@ -412,24 +420,55 @@ span {
   background-size: 200% auto;
   border-radius: 10px;
   display: block;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #4488ff;
+  color: white;
+  
 }
 
 
-.btn-grad:hover {
+.group-button .btn-grad:hover {
   background-position: right center;
-  /* change the direction of the change here */
-  /* color: #fff; */
-  color: #4284FF;
+  color: white !important;
   text-decoration: none;
   cursor: pointer;
+  background-color:#4284FF;
+
+}
+
+.group-button .btn-grad:hover{
+  color: #172c49 !important;
+  background-color: white;
+
 }
 
 @media screen and (max-width: 960px){
   .btn-grad{
-    padding: 5px 15px;
+    padding: 5px 5px;
     font-size: 10px;
   }
+
+  .main-page-content h1{
+    font-size: 54px;
+  }
+
+  .main-page-content h2{
+    font-size: 18px;
+  }
+
+  .group h4{
+    font-size: 18px
+
+  }
+
+  .group-button .btn-grad{
+    padding: 10px;
+  }
+
+
+
+
 }
 .main-page-content span {
   color: #4284FF;
