@@ -527,8 +527,8 @@ span {
   color: #172c49;
 
   /* color: white; */
-  font-size: 2vw;
-  font-family: 'Open sans', sans-serif;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -541,11 +541,8 @@ span {
 .theme-video-left span {
   margin-top: 10px;
   width: 100%;
-  /* background-color: #4488ff; */
-  /* color: white; */
   color: #172c49;
 
-  padding: 0px 8px;
 }
 
 @media screen and (max-width: 960px){
@@ -1902,5 +1899,12 @@ span.text {
 
   .core-team-heading p{
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .speakers-main{
+    display: grid;
+    grid-template-columns: auto;
   }
 }
