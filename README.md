@@ -1,1 +1,2 @@
-# The Official Website of Sandstone: The entreprenurship  fest of SME IIT Jodhpur
+# Sandstone Summit-22
+## The official website of Sandstone summit organised by SME IIT Jodhpur
