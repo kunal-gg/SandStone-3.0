@@ -415,6 +415,7 @@ span {
   font-size: 14px;
 }
 
+
 .btn-grad:hover {
   background-position: right center;
   /* change the direction of the change here */
@@ -424,7 +425,12 @@ span {
   cursor: pointer;
 }
 
-
+@media screen and (max-width: 960px){
+  .btn-grad{
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+}
 .main-page-content span {
   color: #4284FF;
   font-size: 120px;
@@ -1252,6 +1258,12 @@ body {
 
 }
 
+@media screen and (max-width: 768px) {
+  .image-slider img{
+    width: auto;
+    height: auto;
+  }
+}
 
 @keyframes slider {
   0% {
@@ -1461,6 +1473,10 @@ span.text {
   .fuck-off-sme{
     margin-bottom: 55vh;
   }
+  .fuck-off-sme-card{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 .fuck-off-sme2 {
   text-align: center;
@@ -1477,6 +1493,17 @@ span.text {
   font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (max-width: 400px){
+  .fuck-off-sme2{
+    font-size: 10vw;
+  }
+  .fuck-off-sme2 span {
+    font-size: 10vw;
+  }
+  .fuck-off-sme2{
+    margin-bottom: 108%;
+  }
+}
 @media screen and (max-width: 768px) {
   .fuck-off-sme2{
     font-size: 10vw;
@@ -1484,11 +1511,14 @@ span.text {
   .fuck-off-sme2 span {
     font-size: 10vw;
   }
+  .fuck-off-sme2{
+    margin-bottom: 80%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .fuck-off-sme2{
-    margin-bottom: 80%;
+    margin-bottom: 108%;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -1719,6 +1749,22 @@ span.text {
 }
 
 
+@media screen and (max-width: 1000px){
+  .theme-video-main {
+    display: grid;
+    grid-template-columns: auto;
+    height: auto;
+
+  }
+
+  .theme-video-left{
+    width: 100
+  }
+  .theme-video-right{
+    padding-left: 20%;
+    padding-bottom: 50%;
+  }
+}
 @media screen and (max-width: 1024px) {
   .wrapper {
     width: 85vw;
