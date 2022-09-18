@@ -1905,6 +1905,14 @@ span.text {
 @media screen and (max-width: 400px) {
   .speakers-main{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .speakers-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
