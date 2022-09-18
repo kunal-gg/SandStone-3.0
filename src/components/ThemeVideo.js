@@ -13,7 +13,7 @@ export default function ThemeVideo() {
                     </p>
                 </div>
                 <div className="theme-video-right">
-                    <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+                    <ReactPlayer width="50vw" height="50vh" url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
                 </div>
             </div>
         </div>
