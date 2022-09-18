@@ -78,7 +78,9 @@ export default function HomePage() {
 
                 <div className="main-page-content">
                     {/* <h1>Sand<span className="stone">Stone</span></h1> */}
-                    <h1>SANDSTONE</h1>
+                    {/* <h1>SANDSTONE</h1> */}
+                    <img src={require('./images/Sandstone logo.png')} />
+
                     <h2>India Accelerates: Canvassing Vicennial Sustainability</h2>
                     <div className="group">
                         <h4><FaMapPin color="red" /> IIT Jodhpur</h4>

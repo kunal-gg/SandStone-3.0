@@ -1233,7 +1233,10 @@ body {
   font-weight: bold;
 }
 
-
+.main-page-content img{
+  width: 100%;
+  height: auto;
+}
 
 .group {
   display: flex;
