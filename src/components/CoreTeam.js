@@ -16,7 +16,7 @@ export default function CoreTeam(){
 <div className="core-team-grid">
 
 <Card 
-    image={require('./images/Anuj Pal Kapoor.png')}
+    image={require('./images/Anuj Sir.jpeg')}
     name='Anuj Pal Kapoor'
     POR='CHAIRPERSON'
     description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
