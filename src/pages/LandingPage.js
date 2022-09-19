@@ -14,8 +14,10 @@ export default function LandingPage(){
             <Slider />
           
             <Introduction />
-            
             <Theme />
+            {/* <Events /> */}
+            {/* <Slider /> */}
+            {/* <FootFall /> */}
         </>
     )
 }
