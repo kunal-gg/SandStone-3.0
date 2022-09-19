@@ -11,7 +11,7 @@ export default function Header() {
                 </div>
                 <div class="other-header-list">
                     <ul>
-                        <Link to={'/'}
+                        <Link to={'/'} onClick={window.scrollTo(0, 0)}
                             className='other-header-list-link'>Home</Link>
                         <Link to={'/speakers'} className='other-header-list-link'>Speakers</Link>
                         <Link to={'/sponsors'} className='other-header-list-link'>Sponsors</Link>

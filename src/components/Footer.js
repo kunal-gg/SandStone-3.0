@@ -39,6 +39,8 @@ export default function Footer() {
                     <div className="footer-column-heading">
                         <h4>Quick Links</h4>
                         <hr></hr>
+                        <Link to="" onClick={window.scrollTo(0, 0)} >Home</Link>
+                        <li><Link to={'/webdevteam'} onClick={window.scrollTo(0, 0)}>Web-Dev Team</Link></li>
                         <li><a><Link to={'/theme'}>Theme</Link></a></li>
                         <li><a><Link to={'/sponsors'}>Sponsors</Link></a></li>
                         <li>
