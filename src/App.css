@@ -1006,6 +1006,24 @@ body {
   margin-top: 40px;
 }
 
+.amex span{
+  font-size: 72px;
+}
+
+@media  screen and (max-width: 400px) {
+  .amex h1, .amex span{
+    font-size: 40px;
+  }
+
+  .amex h1{
+    color: black;
+  }
+
+  .amex span{
+    color:#4284FF ;
+  }
+}
+
 .amex img {
   width: 250px;
   margin-top: 40px;
