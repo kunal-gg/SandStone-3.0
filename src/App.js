@@ -15,6 +15,8 @@ import SponsorsPage from './pages/SponsorsPage';
 import HackthonPage from './pages/HackathonPage';
 import Competitions from './components/Competitions';
 import CompetitionsPage from './pages/CompetitonsPage';
+import WebDevTeam from './components/WebDevTeam';
+import WebDevTeamPage from './pages/WebDevTeam';
 
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
           <Route path='/team' element={<CoreTeamPage />} />
           <Route path='/events' element={<EventsPage />} />
           <Route path='/hackathon' element={<CompetitionsPage />} />
+          <Route path='/webdevteam' element={<WebDevTeamPage />} />
         </Routes>
         <Footer />
         <Copyright />
