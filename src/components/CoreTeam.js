@@ -29,7 +29,7 @@ export default function CoreTeam() {
           />
 
           <Card
-            image={require('./images/Gurpreet Kaur Virdi.jpeg')}
+            image={require('./images/Gurpreet Ma\'am Edited.png')}
             name='Gurpreet Kaur Virdi'
             POR='CHAIRPERSON'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
