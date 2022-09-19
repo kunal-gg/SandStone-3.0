@@ -46,7 +46,7 @@ export default function NewHeader() {
                         <a><Link to={'/speakers'} className='other-header-list-link'>Speakers</Link></a>
                         <a><Link to={'/sponsors'} className='other-header-list-link'>Sponsors</Link></a>
                         <a><Link to={'/team'} className='other-header-list-link'>Core Team</Link></a>
-                        <a><Link to={'/hackathon'} className='other-header-list-link'>Sandstone Verticals</Link></a>
+                        <a><Link to={'/hackathon'} className='other-header-list-link'>Verticals</Link></a>
                         <a><Link to={'/theme'} className='other-header-list-link'>Theme</Link></a>
                     {/* <a href="/">Home</a>
                     <a href="/">Articles</a>
