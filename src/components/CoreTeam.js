@@ -17,37 +17,39 @@ export default function CoreTeam() {
 
           <Card
             image={require('./images/Anuj Sir.jpeg')}
-            name='Anuj Pal Kapoor'
+            name='Dr. Anuj Pal Kapoor'
             POR='CHAIRPERSON'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
-          <Card
-            image={require('./images/Puneet Sir Edited.png')}
-            name='Puneet Garg'
-            POR='CHAIRPERSON'
-            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
-          />
-
-          <Card
-            image={require('./images/Gurpreet Maam Final.png')}
-            name='Gurpreet Kaur Virdi'
-            POR='CHAIRPERSON'
-            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
-          />
-
           <Card
             image={require('./images/Dr. Tanmoy Kundu.jpeg')}
             name='Dr Tanmoy Kundu'
-            POR='CHAIRPERSON'
+            POR='Assistant Professor'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
           <Card
             image={require('./images/Dr. Monika Tanwar.jpeg')}
             name='Dr. Monika Tanwar'
-            POR='CHAIRPERSON'
+            POR='Assistant Professor'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
+
+          <Card
+            image={require('./images/Puneet Sir Edited.png')}
+            name='Puneet Garg'
+            POR='CDC'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+
+          <Card
+            image={require('./images/Gurpreet Maam Final.png')}
+            name='Gurpreet Kaur Virdi'
+            POR='CDC'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+
+
           <Card
             image={require('./images/Neeraj Pachar.png')}
             name='Neeraj Pachar'
