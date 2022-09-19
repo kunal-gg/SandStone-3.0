@@ -22,7 +22,7 @@ export default function CoreTeam() {
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
           <Card
-            image={require('./images/Puneet Garg.jpeg')}
+            image={require('./images/Puneet Sir Edited.png')}
             name='Puneet Garg'
             POR='CHAIRPERSON'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
