@@ -7,7 +7,7 @@ export default function Amex(){
     return(
         <>
             <div className="amex">
-                <h1>Title Sponsor</h1>
+                <h1>Title <span>Sponsor</span></h1>
                 <img src={require('./images/american-express.png')} />
                 {/* <ul>
                     <li><FaLinkedinIn size={25}/></li>

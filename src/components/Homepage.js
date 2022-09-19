@@ -44,7 +44,7 @@ export default function HomePage() {
                         <a><Link to={'/speakers'} className='other-header-list-link'>Speakers</Link></a>
                         <a><Link to={'/sponsors'} className='other-header-list-link'>Sponsors</Link></a>
                         <a><Link to={'/team'} className='other-header-list-link'>Core Team</Link></a>
-                        <a><Link to={'/hackathon'} className='other-header-list-link'>Sandstone Verticals</Link></a>
+                        <a><Link to={'/hackathon'} className='other-header-list-link'>Verticals</Link></a>
                         <a><Link to={'/theme'} className='other-header-list-link'>Theme</Link></a>
                         {/* <a href="/">Home</a>
                     <a href="/">Articles</a>
@@ -78,7 +78,9 @@ export default function HomePage() {
 
                 <div className="main-page-content">
                     {/* <h1>Sand<span className="stone">Stone</span></h1> */}
-                    <h1>SANDSTONE</h1>
+                    {/* <h1>SANDSTONE</h1> */}
+                    <img src={require('./images/Sandstone logo.png')} />
+
                     <h2>India Accelerates: Canvassing Vicennial Sustainability</h2>
                     <div className="group">
                         <h4><FaMapPin color="red" /> IIT Jodhpur</h4>
@@ -86,7 +88,9 @@ export default function HomePage() {
                     </div>
                     <div className="group-button">
                         <a href="#" target="_blank"><button className="btn-grad"> Enter Platform </button></a>
-                        <a href="https://drive.google.com/drive/folders/1bIoM51tgU38RH70jL99f1MOY7REhusiQ" target="_blank"><button className="btn-grad"> <FaPlayCircle /> Theme Reveal </button></a>
+                        {/* <a href="https://drive.google.com/drive/folders/1bIoM51tgU38RH70jL99f1MOY7REhusiQ" target="_blank"><button className="btn-grad"> <FaPlayCircle /> Theme Reveal </button></a> */}
+                        <a><Link to={'/theme'}><button className="btn-grad"> <FaPlayCircle /> Theme Reveal </button></Link></a>
+
                     </div>
 
                 </div>
