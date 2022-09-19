@@ -21,13 +21,6 @@ export default function CoreTeam() {
             POR='CHAIRPERSON'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
-
-          <Card
-            image={require('./images/Neeraj Pachar.png')}
-            name='Neeraj Pachar'
-            POR='SENIOR MANAGER'
-            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
-          />
           <Card
             image={require('./images/Puneet Garg.jpeg')}
             name='Puneet Garg'
@@ -41,6 +34,27 @@ export default function CoreTeam() {
             POR='CHAIRPERSON'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
+
+          <Card
+            image={require('./images/Dr. Tanmoy Kundu.jpeg')}
+            name='Dr Tanmoy Kundu'
+            POR='CHAIRPERSON'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+
+          <Card
+            image={require('./images/Dr. Monika Tanwar.jpeg')}
+            name='Dr. Monika Tanwar'
+            POR='CHAIRPERSON'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+          <Card
+            image={require('./images/Neeraj Pachar.png')}
+            name='Neeraj Pachar'
+            POR='SENIOR MANAGER'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+
           <Card
             image={require('./images/Aman Prakash.png')}
             name='Aman Prakash'
@@ -75,6 +89,13 @@ export default function CoreTeam() {
           <Card
             image={require('./images/Aviral Aggarwal.png')}
             name='Aviral Aggarwal'
+            POR='JOINT SECRETARY'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+          <Card
+
+            image={require('./images/Aayush Sharma.jpeg')}
+            name='Ayush Sharma'
             POR='JOINT SECRETARY'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
@@ -118,13 +139,7 @@ export default function CoreTeam() {
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
-          <Card
 
-            image={require('./images/Aayush Sharma.jpeg')}
-            name='Ayush Sharma'
-            POR='JOINT SECRETARY'
-            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
-          />
 
 
 

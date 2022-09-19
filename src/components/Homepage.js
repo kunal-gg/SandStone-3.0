@@ -88,7 +88,9 @@ export default function HomePage() {
                     </div>
                     <div className="group-button">
                         <a href="#" target="_blank"><button className="btn-grad"> Enter Platform </button></a>
-                        <a href="https://drive.google.com/drive/folders/1bIoM51tgU38RH70jL99f1MOY7REhusiQ" target="_blank"><button className="btn-grad"> <FaPlayCircle /> Theme Reveal </button></a>
+                        {/* <a href="https://drive.google.com/drive/folders/1bIoM51tgU38RH70jL99f1MOY7REhusiQ" target="_blank"><button className="btn-grad"> <FaPlayCircle /> Theme Reveal </button></a> */}
+                        <a><Link to={'/theme'}><button className="btn-grad"> <FaPlayCircle /> Theme Reveal </button></Link></a>
+
                     </div>
 
                 </div>

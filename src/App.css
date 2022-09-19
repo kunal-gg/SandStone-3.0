@@ -33,6 +33,10 @@
 
 }
 
+.copyright-content a{
+  text-decoration: none;
+}
+
 .copyright-content p {
   text-align: center;
 
