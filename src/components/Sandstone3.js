@@ -7,9 +7,9 @@ export const sandstone =[
     {name: 'Jyoti Nair', designation: 'Executive Director- Global Technology', company: 'JPMorgan Chase & Co.', image:require('./images/Jyoti Nair.png')},,
     {name: 'Karthik SM', designation: 'Global Head - Talent Acquisition', company: 'Biocon Biologics', image:require('./images/Karthik SM.png')},
     {name: 'Kapil Sharma', designation: 'Chief Transformation Officer', company: 'Microsoft India', image: require('./images/Kapil Sharma.jpeg')}, 
-    {name: 'Manoj Bhatia', designation: 'Vice President (Asia Head Non-IT)', company: 'Morgan Stanley', },
+    {name: 'Manoj Bhatia', designation: 'Vice President (Asia Head Non-IT)', company: 'Morgan Stanley', image: require('./images/Manoj Bhatia.jpeg')},
     {name: 'Mansi Batra' , designation: 'Head UK Business Sales', company: 'Linkedin', image: require('./images/Mansi Batra.jpeg')},
-    {name: 'Nikhil Parwal', designation: 'Business Head', company: 'LeadSquared', image: require('./images/Nikhil Parwal.jpeg')},
+    {name: 'Nikhil Parwal', designation: 'Business Head', company: 'LeadSquared', image: require('./images/Nikhil Parwal.jpg')},
 
    
     {name: 'Nishant Govil', designation: 'Managing Director -', company: 'Black Rock', image: require('./images/Nishant Govil.png')},,
