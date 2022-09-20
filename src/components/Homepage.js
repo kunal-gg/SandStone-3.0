@@ -80,7 +80,11 @@ export default function HomePage() {
                     {/* <h1>Sand<span className="stone">Stone</span></h1> */}
                     {/* <h1>SANDSTONE</h1> */}
                     <img src={require('./images/Sandstone logo.png')} />
-
+                    <div id="powered-by-class">
+                        <h2 id="powered-by">Powered By </h2>
+                        <img src={require('./images/american-express.png')} width='30px' id="amex-homepage"/>
+                    </div>
+                  
                     <h2>India Accelerates: Canvassing Vicennial Sustainability</h2>
                     <div className="group">
                         <h4><FaMapPin color="red" /> IIT Jodhpur</h4>
