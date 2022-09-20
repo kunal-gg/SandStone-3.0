@@ -5,7 +5,7 @@ export const sandstone =[
     {name: 'Gaurav Khatri', designation: 'Founder', company: 'Noise', image: require('./images/Gaurav Khatri.png')},
     {name: 'Harsh Kishore', designation: 'Director', company: 'LeadSquared', image: require('./images/Harsh Kishore.png')},,
     {name: 'Jyoti Nair', designation: 'Executive Director- Global Technology', company: 'JPMorgan Chase & Co.', image:require('./images/Jyoti Nair.png')},,
-    {name: 'Karthik SM', designation: 'Global Head - Talent Aquisition', company: 'Biocon Biologocs', image:require('./images/Karthik SM.png')},
+    {name: 'Karthik SM', designation: 'Global Head - Talent Acquisition', company: 'Biocon Biologics', image:require('./images/Karthik SM.png')},
     {name: 'Kapil Sharma', designation: 'Chief Transformation Officer', company: 'Microsoft India', image: require('./images/Kapil Sharma.jpeg')}, 
     {name: 'Manoj Bhatia', designation: 'Vice President (Asia Head Non-IT)', company: 'Morgan Stanley', },
     {name: 'Mansi Batra' , designation: 'Head UK Business Sales', company: 'Linkedin', image: require('./images/Mansi Batra.jpeg')},
@@ -27,13 +27,13 @@ export const sandstone =[
     {name: 'Sheetal Pahuja', designation: 'Vice President - MIS analytics', company: 'American Express', image: require('./images/Sheetal Pahuja.jpeg')},
        
     
-    {name: 'Smriti Singh', designation: 'Business Lead', company: 'JP Morgan Chase and Co.', image: require('./images/Smriti Singh.jpeg')},
+
     {name: 'Soumitra Dhankar', designation: 'Consulting Leader', company: 'Adobe', image: require('./images/Soumitra Dhankar.png')},
     
     {name: 'Suhas Joshi', designation: 'Head - Sustainability & Business stewardship South Asia', company: 'Bayer', image: require('./images/Suhas Joshi.jpeg')},,
     {name: 'Sushant Kumar', designation: 'Campus Recruitment (India)', company: 'Tata Technologies', image: require('./images/Sushant Kumar.png')},,
     {name: 'Vishal Bansal', designation: 'Talent Aquisition Head (India)', company: 'Lenovo', image: require('./images/Vishal Bansal.png')},,
-    {name: 'Yoginder Grewal', designation: 'Chief Technology Office', company: 'Coca-Cola Beverages', image: require('./images/Yoginder Grewal.png')},,
+    {name: 'Yoginder Grewal', designation: 'Chief Technology Office', company: 'Hindustan Coca-Cola Beverages', image: require('./images/Yoginder Grewal.png')},,
     ,
    
 
