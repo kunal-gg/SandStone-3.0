@@ -141,11 +141,68 @@ export default function CoreTeam() {
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
+          <Card
+
+            image={require('./images/Rahul.JPG')}
+            name='Rahul'
+            nothing='JOINT SECRETARY'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+
+          <Card
+
+            image={require('./images/Abhishek Srivastav.JPG')}
+            name='Abhishek Srivastav'
+            nothing='JOINT SECRETARY'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+
+          <Card
+
+            image={require('./images/Aniruddha Parikshit Bhadke.jpg')}
+            name='Aniruddha Bhadke'
+            nothing='JOINT SECRETARY'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
+
+          <Card
+
+            image={require('./images/Anupama Banerjee.jpg')}
+            name='Anupama Banerjee'
+            nothing='JOINT SECRETARY'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
 
 
+          <Card
 
+            image={require('./images/Arjun Saseendran.jpg')}
+            name='Arjun Saseendran'
+            nothing='JOINT SECRETARY'
+            description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
 
+          <Card
 
+          image={require('./images/Sumanth S.jpeg')}
+          name='Sumanth S'
+          nothing='JOINT SECRETARY'
+          description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />          
+          <Card
+
+          image={require('./images/Sweta Satish.jpg')}
+          name='Sweta Satish'
+          nothing='JOINT SECRETARY'
+          description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />          
+          <Card
+
+          image={require('./images/Vidyotma.JPG')}
+          name='Vidyotma'
+          nothing='JOINT SECRETARY'
+          description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
+          />
 
         </div>
 
