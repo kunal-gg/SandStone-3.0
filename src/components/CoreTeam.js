@@ -18,34 +18,34 @@ export default function CoreTeam() {
           <Card
             image={require('./images/Anuj Sir.jpeg')}
             name='Dr. Anuj Pal Kapoor'
-            POR='CHAIRPERSON'
+            nothing='CHAIRPERSON'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
           <Card
             image={require('./images/Dr. Tanmoy Kundu.jpeg')}
             name='Dr Tanmoy Kundu'
-            POR='Assistant Professor'
+            nothing='Assistant Professor'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
           <Card
             image={require('./images/Dr. Monika Tanwar.jpeg')}
             name='Dr. Monika Tanwar'
-            POR='Assistant Professor'
+            nothing='Assistant Professor'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
           <Card
             image={require('./images/Puneet Sir Edited.png')}
             name='Puneet Garg'
-            POR='CDC'
+            nothing='CDC'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
           <Card
             image={require('./images/Gurpreet Maam Final.png')}
             name='Gurpreet Kaur Virdi'
-            POR='CDC'
+            nothing='CDC'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
@@ -53,14 +53,14 @@ export default function CoreTeam() {
           <Card
             image={require('./images/Neeraj Pachar.png')}
             name='Neeraj Pachar'
-            POR='SENIOR MANAGER'
+            nothing='SENIOR MANAGER'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
           <Card
             image={require('./images/Aman Prakash.png')}
             name='Aman Prakash'
-            POR='GENERAL SECRETARY-SS'
+            nothing='GENERAL SECRETARY-SS'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
@@ -68,21 +68,21 @@ export default function CoreTeam() {
           <Card
             image={require('./images/Manav Kapoor.jpg')}
             name='Manav Kapoor'
-            POR='GENERAL SECRETARY - ACAC'
+            nothing='GENERAL SECRETARY - ACAC'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
           <Card
             image={require('./images/Jeevesh Jain.png')}
             name='Jeevesh Jain'
-            POR='VICE PRESIDENT OF BCD'
+            nothing='VICE PRESIDENT OF BCD'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
           <Card
             image={require('./images/Paridhi Mathur.png')}
             name='Paridhi Mathur'
-            POR='SECRETARY'
+            nothing='SECRETARY'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
@@ -91,20 +91,20 @@ export default function CoreTeam() {
           <Card
             image={require('./images/Aviral Aggarwal.png')}
             name='Aviral Aggarwal'
-            POR='JOINT SECRETARY'
+            nothing='JOINT SECRETARY'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
           <Card
 
             image={require('./images/Aayush Sharma.jpeg')}
             name='Ayush Sharma'
-            POR='JOINT SECRETARY'
+            nothing='JOINT SECRETARY'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
           <Card
             image={require('./images/Devanshi Grover.png')}
             name='Devanshi Grover'
-            POR='JOINT SECRETARY'
+            nothing='JOINT SECRETARY'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
 
           />
@@ -114,7 +114,7 @@ export default function CoreTeam() {
           <Card
             image={require('./images/Madhumay Bhartiya.png')}
             name='Madhumay Bhartiya'
-            POR='JOINT SECRETARY'
+            nothing='JOINT SECRETARY'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum'
           />
 
@@ -123,21 +123,21 @@ export default function CoreTeam() {
           <Card
             image={require('./images/Mayank Sharma.png')}
             name='Mayank Sharma'
-            POR='JOINT SECRETARY'
+            nothing='JOINT SECRETARY'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
           <Card
             image={require('./images/Prodorshika Ghosh.png')}
             name='Prodorshika Ghosh'
-            POR='JOINT SECRETARY'
+            nothing='JOINT SECRETARY'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
           <Card
 
             image={require('./images/Vanshika Bansal.png')}
             name='Vanshika Bansal'
-            POR='JOINT SECRETARY'
+            nothing='JOINT SECRETARY'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
 
