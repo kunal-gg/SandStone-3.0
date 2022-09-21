@@ -21,7 +21,7 @@ export default function CoreTeam() {
           <Card
             image={require('./images/Anuj Sir.jpeg')}
             name='Dr. Anuj Pal Kapoor'
-            POR='CHAIRPERSON'
+            nothing='CHAIRPERSON'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
           <Card

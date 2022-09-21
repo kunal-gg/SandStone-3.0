@@ -9,7 +9,6 @@ export default function Sponsors(props){
 
             <div className="sponsors-images">
                 <img src={props.image1} />
-                <img src={props.image2} />
                 {/* <img src={props.image3} /> */}
                 
             </div>
