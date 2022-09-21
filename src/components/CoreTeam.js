@@ -218,7 +218,7 @@ export default function CoreTeam() {
             description='Web Development and Video Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Aditya Anand'
             POR='Assistant Head'
             description='Web Development and Video Design'
@@ -253,13 +253,13 @@ export default function CoreTeam() {
             description='Travel and Accommodation'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Divyanshu Gupta'
             POR='Assistant Head'
             description='Travel and Accommodation'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Shubham Kumar'
             POR='Assistant Head'
             description='Travel and Accommodation'
@@ -283,19 +283,19 @@ export default function CoreTeam() {
             description='Resources'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Anushka Jat'
             POR='Assistant Head'
             description='Resources'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Ashudeep Dubey'
             POR='Assistant Head'
             description='Resources'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Harender Pal Singh'
             POR='Assistant Head'
             description='Resources'
@@ -318,7 +318,7 @@ export default function CoreTeam() {
             description='Marketing'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Praveen Kumar'
             POR='Assistant Head'
             description='Marketing'
@@ -347,31 +347,31 @@ export default function CoreTeam() {
             description='Informals'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Hitesh Bansal'
             POR='Head-Unstop'
             description='Informals'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Ajay Kumar'
             POR='Assistant Head'
             description='Informals'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/user-icon-svgrepo-com.svg')}
             name='Ankit Mehta'
             POR='Assistant Head'
             description='Informals'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Rajneesh Tiwari'
             POR='Assistant Head'
             description='Informals'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Shreshth Vatsal Sharma'
             POR='Assistant Head'
             description='Informals'
@@ -382,7 +382,7 @@ export default function CoreTeam() {
 <h2 className = 'departments'>Guest Relations</h2>
 <div className="core-team-grid">
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='S.S. Srinidhi'
             POR='Head'
             description='Guest Relations'
@@ -394,19 +394,19 @@ export default function CoreTeam() {
             description='Guest Relations'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Ankit Dwivedi'
             POR='Assistant Head'
             description='Guest Relations'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Anurag Verma'
             POR='Assistant Head'
             description='Guest Relations'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Manasi Dubey'
             POR='Assistant Head'
             description='Guest Relations'
@@ -421,61 +421,61 @@ export default function CoreTeam() {
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Lavanya Dahiya'
             POR='Head'
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Akriti Gupta'
             POR='Assistant Head'
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Chaitravi Kane'
             POR='Assistant Head'
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Manoj Khichar'
             POR='Assistant Head'
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Niharika Dadu'
             POR='Assistant Head'
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Prakhar Bisen'
             POR='Assistant Head'
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Pravesh Garg'
             POR='Assistant Head'
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Rishav Aich'
             POR='Assistant Head'
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Saloni Garg'
             POR='Assistant Head'
             description='Digital Design'
           />
 <Card
-            image={require('./images/Anuj Sir.jpeg')}
+            image={require('./images/Sample User.png')}
             name='Saman Aijaz Siddiqui'
             POR='Assistant Head'
             description='Digital Design'
