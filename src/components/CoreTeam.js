@@ -14,7 +14,7 @@ export default function CoreTeam() {
 
       <AnimationOnScroll animateIn="animate__slideInLeft" animateOnce='true'>
         
-      <h1 className="departments">Core Team</h1>
+
         <div className="core-team-grid">
      
 
