@@ -790,9 +790,13 @@ body {
   padding-top: 0;
   font-family: 'Poppins', sans-serif;
 }
-
+.card-image{
+  display: flex;
+}
 .card-image img {
   width: 200px;
+  flex: 1;
+;
   border-radius: 50%;
 }
 
@@ -1149,6 +1153,12 @@ body {
   color: black;
   font-size: 72px;
   font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 400px){
+  #previous-speakers {
+    font-size: 40px ;
+  }
 }
 
 .previous-speakers-heading span {
@@ -2056,4 +2066,39 @@ span.text {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+}
+
+#powered-by-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+
+}
+#powered-by{
+  display: inline;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+#amex-homepage{
+  width: 50px;
+}
+
+
+@media  screen and (max-width: 400px) {
+  #powered-by{
+    font-size: 25px;
+  }
+}
+
+
+.departments{
+  text-align: center;
+  font-size: 36px;
+}
+
+.core-team-heading{
+  margin-bottom: 40px;
 }
