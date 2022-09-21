@@ -545,6 +545,10 @@ span {
   color: #718096;
 }
 
+.theme-video-left ul, li {
+  margin: 15px 0px;
+  color: #718096;
+}
 .theme-video-left span {
   margin-top: 10px;
   width: 100%;
