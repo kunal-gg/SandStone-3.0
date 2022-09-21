@@ -13,12 +13,15 @@ export default function CoreTeam() {
 
 
       <AnimationOnScroll animateIn="animate__slideInLeft" animateOnce='true'>
+        
+      <h1 className="departments">Core Team</h1>
         <div className="core-team-grid">
+     
 
           <Card
             image={require('./images/Anuj Sir.jpeg')}
             name='Dr. Anuj Pal Kapoor'
-            nothing='CHAIRPERSON'
+            POR='CHAIRPERSON'
             description='Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum.'
           />
           <Card
@@ -205,6 +208,294 @@ export default function CoreTeam() {
           />
 
         </div>
+
+        <h2 className = 'departments'>Web Development and Video Design</h2>
+        <div className="core-team-grid">
+        <Card
+            image={require('./images/Pranav Goswami.jpeg')}
+            name='Pranav Goswami'
+            POR='Head'
+            description='Web Development and Video Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Aditya Anand'
+            POR='Assistant Head'
+            description='Web Development and Video Design'
+          />
+<Card
+            image={require('./images/Kunal Tiwari.jpeg')}
+            name='Kunal Tiwari'
+            POR='Assistant Head'
+            description='Web Development and Video Design'
+          />
+        </div>
+
+
+<h2 className = 'departments'>Travel and Accommodation</h2>
+<div className="core-team-grid">
+<Card
+            image={require('./images/Himansh Mittal.jpeg')}
+            name='Himansh Mittal'
+            POR='Head'
+            description='Travel and Accommodation'
+          />
+<Card
+            image={require('./images/Shashank Saraswat.jpeg')}
+            name='Shashank Saraswat'
+            POR='Head'
+            description='Travel and Accommodation'
+          />
+<Card
+            image={require('./images/Avinash Kumar.jpeg')}
+            name='Avinash Kumar'
+            POR='Assistant Head'
+            description='Travel and Accommodation'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Divyanshu Gupta'
+            POR='Assistant Head'
+            description='Travel and Accommodation'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Shubham Kumar'
+            POR='Assistant Head'
+            description='Travel and Accommodation'
+          />
+
+</div>
+
+
+<h2 className = 'departments'>Resources</h2>
+<div className="core-team-grid">
+<Card
+            image={require('./images/Samyak Bafna.JPG')}
+            name='Samyak Bafna'
+            POR='Head'
+            description='Resources'
+          />
+<Card
+            image={require('./images/Viraj.jpg')}
+            name='Viraj Jagdale'
+            POR='Head'
+            description='Resources'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Anushka Jat'
+            POR='Assistant Head'
+            description='Resources'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Ashudeep Dubey'
+            POR='Assistant Head'
+            description='Resources'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Harender Pal Singh'
+            POR='Assistant Head'
+            description='Resources'
+          />
+</div>
+
+
+<h2 className = 'departments'>Marketing</h2>
+<div className="core-team-grid">
+<Card
+            image={require('./images/Anjali Agarwal.jpeg')}
+            name='Anjali Agarwal'
+            POR='Head'
+            description='Marketing'
+          />
+<Card
+            image={require('./images/Tanmay Gupta.jpeg')}
+            name='Tanmay Gupta'
+            POR='Head'
+            description='Marketing'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Praveen Kumar'
+            POR='Assistant Head'
+            description='Marketing'
+          />
+<Card
+            image={require('./images/Saksham Verma.png')}
+            name='Saksham Verma'
+            POR='Assistant Head'
+            description='Marketing'
+          />
+<Card
+            image={require('./images/Swapnil Shimpi.jpg')}
+            name='Swapnil Shimpi'
+            POR='Assistant Head'
+            description='Marketing'
+          />
+
+</div>
+
+<h2 className = 'departments'>Informals</h2>
+<div className='core-team-grid'>
+<Card
+            image={require('./images/Ayush Sisodia.jpg')}
+            name='Ayush Sisodia'
+            POR='Head'
+            description='Informals'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Hitesh Bansal'
+            POR='Head-Unstop'
+            description='Informals'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Ajay Kumar'
+            POR='Assistant Head'
+            description='Informals'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Ankit Mehta'
+            POR='Assistant Head'
+            description='Informals'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Rajneesh Tiwari'
+            POR='Assistant Head'
+            description='Informals'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Shreshth Vatsal Sharma'
+            POR='Assistant Head'
+            description='Informals'
+          />
+
+</div>
+
+<h2 className = 'departments'>Guest Relations</h2>
+<div className="core-team-grid">
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='S.S. Srinidhi'
+            POR='Head'
+            description='Guest Relations'
+          />
+<Card
+            image={require('./images/Vishal Gupta.jpg')}
+            name='Vishal Gupta'
+            POR='Head'
+            description='Guest Relations'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Ankit Dwivedi'
+            POR='Assistant Head'
+            description='Guest Relations'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Anurag Verma'
+            POR='Assistant Head'
+            description='Guest Relations'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Manasi Dubey'
+            POR='Assistant Head'
+            description='Guest Relations'
+          />
+  </div>
+<h2 className="departments">Digital Design</h2>        
+<div className="core-team-grid">
+<Card
+            image={require('./images/Deepak Baghel.png')}
+            name='Deepak Baghel'
+            POR='Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Lavanya Dahiya'
+            POR='Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Akriti Gupta'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Chaitravi Kane'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Manoj Khichar'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Niharika Dadu'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Prakhar Bisen'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Pravesh Garg'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Rishav Aich'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Saloni Garg'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Anuj Sir.jpeg')}
+            name='Saman Aijaz Siddiqui'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Shanmukh Dharavath.jpeg')}
+            name='Shanmukh Dharavath'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+<Card
+            image={require('./images/Mohit Singh.jpeg')}
+            name='Mohit Singh'
+            POR='Assistant Head'
+            description='Digital Design'
+          />
+</div>
+
+
+
 
 
 
