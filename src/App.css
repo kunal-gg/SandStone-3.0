@@ -545,6 +545,10 @@ span {
   color: #718096;
 }
 
+.theme-video-left ul, li {
+  margin: 15px 0px;
+  color: #718096;
+}
 .theme-video-left span {
   margin-top: 10px;
   width: 100%;
@@ -622,7 +626,7 @@ span {
   padding-top: 80px;
   width: 50vw;
   margin: auto;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 
 .sponsors-title h3 {
@@ -634,7 +638,8 @@ span {
 
 .sponsors-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
 
 }
 
@@ -786,7 +791,7 @@ body {
 .card-right-section {
   padding: 30px;
   width: 45%;
-
+  justify-content: center;
   padding-top: 0;
   font-family: 'Poppins', sans-serif;
 }

@@ -17,11 +17,11 @@ export default function Card(props){
                 <div className="card-content">
                      <p className="name">{props.name}</p>
                     <p  className="por">{props.POR}</p>
-                    <ul>
+                    {/* <ul>
                         <li><a href="#"><FaLinkedinIn size={22}/></a></li>
                         <li><a href="#"><SiGmail size={22}/></a></li>
                         <li><a href="#"><AiTwotonePhone size={22}/></a></li>
-                    </ul>
+                    </ul> */}
                 </div>
 
                 <div className="card-social-media">
