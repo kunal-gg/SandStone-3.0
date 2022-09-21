@@ -8,7 +8,8 @@ export const sandstone =[
     {name: 'Karthik SM', designation: 'Global Head - Talent Acquisition', company: 'Biocon Biologics', image:require('./images/Karthik SM.png')},
     {name: 'Kapil Sharma', designation: 'Chief Transformation Officer', company: 'Microsoft India', image: require('./images/Kapil Sharma.jpeg')}, 
     {name: 'Manoj Bhatia', designation: 'Vice President (Asia Head Non-IT)', company: 'Morgan Stanley', image: require('./images/Manoj Bhatia.jpeg')},
-    {name: 'Mansi Batra' , designation: 'Head UK Business Sales', company: 'Linkedin', image: require('./images/Mansi Batra.jpeg')},
+    {name: 'Mansi Batra' , designation: 'Head UK Business Sales', company: 'LinkedIn', image: require('./images/Mansi Batra.jpeg')},
+    {name: 'Meha Grover', designation: 'Director-Chief of Staff', company: 'Société Générale', image: require('./images/Meha Grover.jpeg')},
     {name: 'Nikhil Parwal', designation: 'Business Head', company: 'LeadSquared', image: require('./images/Nikhil Parwal.jpg')},
 
    
