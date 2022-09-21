@@ -39,10 +39,12 @@ export default function Footer() {
                     <div className="footer-column-heading">
                         <h4>Quick Links</h4>
                         <hr></hr>
-                        <Link onClick={() => window.scrollTo(0, 0)} to="/"  >Home</Link>
-                        <li><Link to={'/webdevteam'} onClick={() => window.scrollTo(0, 0)}>Web-Dev Team</Link></li>
-                        <li><a><Link onClick={() => window.scrollTo(0, 0)} to={'/theme'}>Theme</Link></a></li>
-                        <li><a><Link onClick={() => window.scrollTo(0, 0)} to={'/sponsors'}>Sponsors</Link></a></li>
+
+                        <Link to="" onClick={window.scrollTo(0, 0)} >Home</Link>
+                        {/* <li><Link to={'/webdevteam'} onClick={window.scrollTo(0, 0)}>Web-Dev Team</Link></li> */}
+                        <li><a><Link to={'/theme'}>Theme</Link></a></li>
+                        <li><a><Link to={'/sponsors'}>Sponsors</Link></a></li>
+
                         <li>
                             <a><Link onClick={() => window.scrollTo(0, 0)} to={'/team'}>Core Team</Link></a>
                         </li>
@@ -53,11 +55,12 @@ export default function Footer() {
                     <div className="footer-column-heading">
                         <h4>External Links</h4>
                         <hr></hr>
+                        <li><a href="https://iitj.ac.in/">IIT Jodhpur</a></li>
                         <li><a href="https://iitj.ac.in/schools/index.php">SME IIT Jodhpur</a></li>
                     </div>
                 </div>
 
-                <div className="footer-column" id="social-media-links">
+                {/* <div className="footer-column" id="social-media-links">
                     <div className="footer-column-heading" >
                         <h4>Social Links</h4>
                         <hr></hr>
@@ -70,7 +73,7 @@ export default function Footer() {
 
                     </div>
 
-                </div>
+                </div> */}
             </div>
         </div>
 
