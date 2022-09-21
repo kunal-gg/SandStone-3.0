@@ -790,9 +790,13 @@ body {
   padding-top: 0;
   font-family: 'Poppins', sans-serif;
 }
-
+.card-image{
+  display: flex;
+}
 .card-image img {
   width: 200px;
+  flex: 1;
+;
   border-radius: 50%;
 }
 
@@ -2093,4 +2097,8 @@ span.text {
 .departments{
   text-align: center;
   font-size: 36px;
+}
+
+.core-team-heading{
+  margin-bottom: 40px;
 }

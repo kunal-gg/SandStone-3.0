@@ -359,7 +359,7 @@ export default function CoreTeam() {
             description='Informals'
           />
 <Card
-            image={require('./images/user-icon-svgrepo-com.svg')}
+            image={require('./images/Sample User.png')}
             name='Ankit Mehta'
             POR='Assistant Head'
             description='Informals'
