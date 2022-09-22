@@ -91,7 +91,7 @@ export default function HomePage() {
                         <h4><FaCalendar color="#4284FF" /> 23rd-25th September</h4>
                     </div>
                     <div className="group-button">
-                        <a href="#" target="_blank"><button className="btn-grad"> Enter Platform </button></a>
+                        <a href="https://sandstonesummit.samaaro.com/" target="_blank"><button className="btn-grad"> Enter Platform </button></a>
                         {/* <a href="https://drive.google.com/drive/folders/1bIoM51tgU38RH70jL99f1MOY7REhusiQ" target="_blank"><button className="btn-grad"> <FaPlayCircle /> Theme Reveal </button></a> */}
                         <a><Link to={'/theme'}><button className="btn-grad"> <FaPlayCircle /> Theme Reveal </button></Link></a>
 
