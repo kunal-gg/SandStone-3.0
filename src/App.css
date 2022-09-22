@@ -1348,6 +1348,8 @@ body {
 
 }
 
+
+
 @media screen and (max-width: 768px) {
   .image-slider img{
     width: auto;
@@ -2106,4 +2108,30 @@ span.text {
 
 .core-team-heading{
   margin-bottom: 40px;
+}
+
+.message-main{
+  height: 100vh;
+  background-color: #a1c4ff;
+}
+.message-container{
+  margin: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.introduction-right-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-heading{
+  text-align: center;
+  padding: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  padding-bottom: 0px;
+  color: #243E63;
+
 }

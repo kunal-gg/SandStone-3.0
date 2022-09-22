@@ -1,5 +1,6 @@
 import React from "react";
 import "animate.css/animate.min.css";
+import ReactPlayer from "react-player";
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
@@ -22,11 +23,12 @@ export default function Introduction() {
 
                 
                     <div className="introduction-right-section">
-                        {/* <AnimationOnScroll animateIn="animate__slideInRight "> */}
-                            <img src={require('./images/Homepage/hero.png')} width='90%' />
-                            {/* <img src={require('./images/Introduction.png')} width='70%' /> */}
+                        <div className="introduction-video">
+                        <ReactPlayer width="30vw" height="40vh" url='https://youtu.be/OCNnKPDXSow' />
+                        </div>
 
-                        {/* </AnimationOnScroll> */}
+
+
                     </div>
                 
 

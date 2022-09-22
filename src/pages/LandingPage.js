@@ -1,4 +1,5 @@
 import React from "react";
+import Message from "../components/Director'sMessage";
 import Events from "../components/Events";
 import EventsCard from "../components/EventsWithCards";
 import HomePage from "../components/Homepage";
@@ -11,13 +12,11 @@ export default function LandingPage(){
     return(
         <>
             <HomePage />
-            <Slider />
-          
+            <Message />
+       
             <Introduction />
             <Theme />
-            {/* <Events /> */}
             {/* <Slider /> */}
-            {/* <FootFall /> */}
         </>
     )
 }
