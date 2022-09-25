@@ -2135,3 +2135,13 @@ span.text {
   color: #243E63;
 
 }
+
+@media screen and (max-width: 500px) {
+  .introduction-main{
+    padding: 25px;
+  }
+
+  .introduction-right-section{
+    padding: 20px;
+  }
+}
